@@ -25,3 +25,5 @@
     ],       
    ]);
 ?>
+
+<button class="btn btn-primary">Tombol</button>
