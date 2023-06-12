@@ -20,25 +20,22 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'template/css/core.css',
-        'template/css/components.css',
-        'template/css/icons.css',
-        'template/css/pages.css',
-        'template/css/resvonsive.css',
+        'template2/vendor/bootstrap/css/bootstrap.min.css',
+        'template2/css/fontawesome.css',
+        'template2/css/templatemo-cyborg-gaming.css',
+        'template2/css/owl.css',
+        'template2/css/animate.css',
+        
     ];
     public $js = [
-        'template/js/modernizr.min.css',
-        'template/js/boostrap.min.css',
-        'template/js/detect.js',
-        'template/js/fastclick.js',
-        'template/js/jquery.slimscroll.js',
-        'template/js/jquery.blockUI.js',
-        'template/js/waves.js',
-        'template/js/wow.js',
-        'template/js/jquery.nicescroll.js',
-        'template/js/jquery.scrollTo.min.js',
-        'template/js/jquery.core.js',
-        'template/js/jquery.app.js',
+        'template2/vendor/jquery/jquery.min.js',
+        'template2/vendor/bootstrap/js/bootstrap.min.js',
+        'template2/js/isotope.min.js',
+        'template2/js/owl-carousel.js',
+        'template2/js/tabs.js',
+        'template2/js/popup.js',
+        'template2/js/custom.js',
+    
     ];
     public $depends = [
         'yii\web\YiiAsset',

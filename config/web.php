@@ -56,7 +56,7 @@ $config = [
                     'basePath' => '@webroot',
                     'baseUrl' => '@web',
                     'js' => [
-                        'template/js/jquery.min.js',
+                        'template2/vendor/js/jquery.min.js',
                     ]
                 ],
                 'yii\bootstrap5\BootstrapAsset' => [
@@ -64,7 +64,7 @@ $config = [
                     'basePath' => '@webroot',
                     'baseUrl' => '@web',
                     'css' => [
-                        'template/css/bootstrap.min.css'
+                        'template2/vendor/css/bootstrap.min.css'
                     ],
                 ],
             ],
